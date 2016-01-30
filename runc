@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat $1 | tail -n +2 > temp.c
+gcc temp.c && ./a.out
+rm a.out temp.c
