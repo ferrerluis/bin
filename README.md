@@ -22,11 +22,11 @@ This is just a Python script that receives markdown-formatted text either from a
 
 ## trash
 
-This is my trash command. Don't you hate it when you `rm` something and then it's lost forever? `tr` replaces `rm` in that instead of removing, it moves the files to your ~/.Trash directory. You can always `rm` the whole trash can later anyway!
+This is my trash command. Don't you hate it when you `rm` something and then it's lost forever? `trash` replaces `rm` in that instead of removing, it moves the files to your ~/.Trash directory. You can always `rm` the whole trash can later anyway!
 
 Oh! BTW. If you don't have a ~/.Trash directory, it will create one for you!
 
 #### Usage
-`tr not_useful.html` or `tr item1.txt item2.md item3.py`
+`trash not_useful.html` or `trash item1.txt item2.md item3.py`
 #### Result
 Nothing. But check your .Trash directory and your files will be there!
