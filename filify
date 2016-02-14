@@ -1,0 +1,1 @@
+echo $@ | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z ]//g' | sed 's/ /_/g'
