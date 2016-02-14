@@ -20,7 +20,7 @@ This is just a Python script that receives markdown-formatted text either from a
 #### Result
 `<h2>hello</h2>`
 
-## tr
+## trash
 
 This is my trash command. Don't you hate it when you `rm` something and then it's lost forever? `tr` replaces `rm` in that instead of removing, it moves the files to your ~/.Trash directory. You can always `rm` the whole trash can later anyway!
 
