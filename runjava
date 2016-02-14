@@ -1,6 +1,0 @@
-#!/bin/bash
-
-title=`echo $1 | sed -E 's/\.|\/| |java//g'`
-cat $1 | tail -n+2 | sed 's/'$title'.*{/Temp {/g' > Temp.java
-javac Temp.java && java Temp && rm Temp.class
-rm Temp.java
