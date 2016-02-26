@@ -30,3 +30,13 @@ Oh! BTW. If you don't have a ~/.Trash directory, it will create one for you!
 `trash not_useful.html` or `trash item1.txt item2.md item3.py`
 #### Result
 Nothing. But check your .Trash directory and your files will be there!
+
+## csvfy
+
+Do you work with databases and want to be able to share the values in them easily with other people? Just convert your tables to CSV so you can open them with a GUI editor like Microsoft Excel, create graphics, and share the information with non-technical people.
+
+#### Usage
+`csvfy sqlite example.db some_table file_to_save.out`
+
+#### Result
+This will save the contents of the table `some_table` into the file `file_to_save.out` when using a SQLite database. SQLite is the only databse supported right now. More will be added in the future, or you can add support to more of them and submit a pull request :)!
