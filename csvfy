@@ -1,0 +1,11 @@
+#!/bin/bash
+
+kind=$1
+db=$2
+table=$3
+out=$4
+
+if [ $kind == "sqlite" ]; then
+	sqlite3 $db -header -csv "select * from "$table";" > $out;
+	
+fi;
