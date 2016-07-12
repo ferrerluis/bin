@@ -1,6 +1,6 @@
 # ferrer bin
 
-These are my personal bin with the Unix commands that make my life in the terminal easier!
+This is my personal bin with the Unix commands that make my life in the terminal easier!
 
 ## filify
 
