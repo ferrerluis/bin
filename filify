@@ -1,1 +1,1 @@
-echo "$@" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9 ]//g' | sed 's/ /_/g'
+echo "$@" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9_. ]//g' | sed 's/ /_/g'
